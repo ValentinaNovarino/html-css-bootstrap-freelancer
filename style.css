@@ -1,7 +1,7 @@
 .navbar.navbar-default {
     background-color: #2c3e50;
     border-radius: 0;
-    padding: 25px 100px;
+    padding: 25px 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
@@ -24,4 +24,72 @@ a.navbar-brand {
 
 .nav.navbar-nav.navbar-right li a:hover {
     color: #1abc9c;
+}
+
+.start-bootstrap {
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.avatar {
+    max-width: 240px;
+    margin-top: 101px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.line {
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.glyphicon-star {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important; /* per sovrascrivere l'important di bootstrap */
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important; /* per sovrascrivere l'important di bootstrap */
+    }
 }
