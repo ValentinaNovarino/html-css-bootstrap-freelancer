@@ -173,6 +173,45 @@ section.different .separator::after {
     border-color: #148f77;
 }
 /*-----------fine section contact------------*/
+/*-----------inizio footer-------------*/
+.footer-container {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.address {
+    padding: 20px;
+}
+
+.footer-container p {
+    font-size: 20px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-dribbble {
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 64px;
+    width: 64px;
+    font-size: 20px;
+    background-color: #2c3e50;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-linkedin-in:hover, .fa-dribbble:hover {
+    background-color: white;
+    color: #2c3e50;
+}
+
+.footer-link {
+    color: rgb(26, 188, 156);
+}
+
+.footer-link:hover {
+    color: #159a80;
+}
+/*---------fine footer-----------*/
 /*---------media query----------*/
 @media screen and (min-width: 992px) {
     .navbar-default .navbar-brand {
