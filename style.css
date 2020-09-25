@@ -111,3 +111,31 @@ section.different .separator::after {
 }
 /*-----------fine section intro------------*/
 /*-----------inizio section portfolio-------------*/
+.portfolio-img {
+    max-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*---------media query----------*/
+@media screen and (min-width: 992px) {
+    .navbar-default .navbar-brand {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 100px 0;
+    }
+
+    .intro-title {
+        font-size: 64px;
+    }
+
+    .text-intro {
+        font-size: 24px;
+    }
+
+    .portfolio-title {
+        font-size: 48px;
+    }
+
+}
