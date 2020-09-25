@@ -102,7 +102,7 @@ section.different .separator::after {
     background-color: white;
 }
 
-.text-title {
+.intro-title {
     font-size: 44px;
 }
 
@@ -116,6 +116,8 @@ section.different .separator::after {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+
 /*---------inizio section about-----------*/
 .text-about {
     font-size: 20px;
@@ -131,6 +133,11 @@ section.different .separator::after {
     border-radius: 8px;
     font-size: 20px;
     outline: 0;
+}
+
+.free-download:hover {
+    background-color: white;
+    color: #2c3e50;
 }
 /*----------fine section about-----------*/
 /*----------inizio section contact----------*/
@@ -176,12 +183,14 @@ section.different .separator::after {
 /*-----------fine section contact------------*/
 /*-----------inizio footer-------------*/
 .footer-container {
+    padding-top: 30px;
+    padding-bottom: 50px;
     background-color: #2c3e50;
     color: white;
 }
 
-.address {
-    padding: 20px;
+.footer-container h3 {
+    padding-top: 20px;
 }
 
 .footer-container p {
@@ -191,6 +200,7 @@ section.different .separator::after {
 .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-dribbble {
     padding: 20px;
     margin-bottom: 20px;
+    margin: 0 5px;
     height: 64px;
     width: 64px;
     font-size: 20px;
