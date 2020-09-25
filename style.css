@@ -116,6 +116,22 @@ section.different .separator::after {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+/*---------inizio section about-----------*/
+.text-about {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+.free-download {
+    padding: 16px 28px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+/*----------fine section about-----------*/
 /*---------media query----------*/
 @media screen and (min-width: 992px) {
     .navbar-default .navbar-brand {
