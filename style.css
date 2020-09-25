@@ -1,95 +1,113 @@
-.navbar.navbar-default {
-    background-color: #2c3e50;
-    border-radius: 0;
-    padding: 25px 0;
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.navbar.navbar-default a {
-    color: white;
-}
-
-a.navbar-brand {
-    font-size: 28px;
-}
-
-.navbar.navbar-default a:hover {
-    color: white;
-}
-
-.nav.navbar-nav.navbar-right li a {
-    color: white;
-}
-
-.nav.navbar-nav.navbar-right li a:hover {
-    color: #1abc9c;
-}
-
-.start-bootstrap {
-    background-color: rgb(26, 188, 156);
-    text-align: center;
-    padding: 100px 0;
-}
-
-.avatar {
-    max-width: 240px;
-    margin-top: 101px;
-}
-
-h1 {
-    color: white;
-    font-size: 45px;
     font-weight: 700;
 }
 
-.line {
-    display: inline-block;
-    width: 10%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: white;
+section {
+    padding: 50px 0;
+    color: #2c3e50;
 }
 
-.glyphicon-star {
-    padding-left: 15px;
-    padding-right: 15px;
+.different {
+    background-color: #1abc9c;
     color: white;
-    font-size: 40px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    width: 10%;
+    height: 4px;
+    background-color: #2c3e50;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*---------regole generiche----------*/
+/*---------inizio nav----------*/
+.navbar.navbar-default.navbar-fixed-top {
+    border: 0;
+    background-color: #2c3e50;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav li a {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.navbar-toggle > span {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+}
+
+.fa-bars {
+    color: white;
+}
+/*------------fine nav------------*/
+/*------------main------------*/
+main {
+    padding-top: 50px;
+}
+/*------------inizio section intro------------*/
+.avatar {
+    max-width: 240px;
+}
+
+.separator {
+    margin: 20px;
+}
+
+.fa-star {
+    font-size: 32px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    width: 10%;
+    height: 4px;
+    background-color: #2c3e50;
+    border-radius: 2px;
+    display: inline-block;
     vertical-align: middle;
 }
 
-p {
-    color: white;
+.separator .fa-star {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+section.different .separator::before,
+section.different .separator::after {
+    background-color: white;
+}
+
+.text-title {
+    font-size: 44px;
+}
+
+.text-intro {
     font-size: 20px;
 }
-
-@media (min-width: 768px) {
-
-    .navbar-header {
-        float: none;
-    }
-
-    .navbar-toggle {
-        display: block;
-    }
-
-    .navbar-collapse.collapse {
-        display: none !important; /* per sovrascrivere l'important di bootstrap */
-    }
-}
-
-@media (min-width: 992px) {
-
-    .navbar-header {
-        float: left;
-    }
-
-    .navbar-toggle {
-        display: none;
-    }
-
-    .navbar-collapse.collapse {
-        display: block !important; /* per sovrascrivere l'important di bootstrap */
-    }
-}
+/*-----------fine section intro------------*/
+/*-----------inizio section portfolio-------------*/

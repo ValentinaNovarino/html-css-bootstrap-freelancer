@@ -2,73 +2,66 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <title>Start bootstrap</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
-        <title>start bootstrap</title>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed text-uppercase" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
-                    </div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="text-uppercase">menu</span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+                </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a class="text-uppercase"
-                                    href="#">portfolio</a>
-                            </li>
-                            <li>
-                                <a class="text-uppercase" href="#">about</a>
-                            </li>
-                            <li>
-                                <a class="text-uppercase" href="#">contact</a>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
-            <section class="start-bootstrap">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="text-uppercase" href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <main>
+            <section id="intro" class="different text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img class="avatar img-responsive center-block" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="avatar">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h1 class="text-uppercase">star bootstrap</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="line"></div>
-                            <div class="glyphicon glyphicon-star"></div>
-                            <div class="line"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p>
-                                Graphic Artist - Web Designer - Illustrator
-                            </p>
+                            <img class="avatar" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="avatar">
+                            <h1 class="text-title text-uppercase">Start Bootstrap</h1>
+                            <div class="separator">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-intro">Graphic Artist - Web Designer - Illustrator</p>
                         </div>
                     </div>
                 </div>
             </section>
-        </header>
+            <section class="portfolio">
 
+            </section>
+            <section class="about .different">
+
+            </section>
+            <section class="contact">
+
+            </section>
+        </main>
     </body>
 </html>
